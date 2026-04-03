@@ -3,9 +3,12 @@
 <head>
     <title>Krishnaraj Kumar K | DevOps Engineer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- Google Font -->
+
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <!-- Icons (LinkedIn etc) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <style>
         body {
@@ -17,18 +20,34 @@
 
         header {
             text-align: center;
-            padding: 60px 20px;
+            padding: 80px 20px;
             background: linear-gradient(135deg, #1f6feb, #9333ea);
         }
 
         header h1 {
             margin: 0;
-            font-size: 40px;
+            font-size: 42px;
         }
 
         header p {
             margin-top: 10px;
             font-size: 18px;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 22px;
+            transition: 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #0d1117;
+            transform: scale(1.2);
         }
 
         section {
@@ -52,32 +71,37 @@
         }
 
         h2 {
-            margin-top: 0;
             color: #58a6ff;
         }
 
         .skills span {
             display: inline-block;
             background: #21262d;
-            padding: 8px 12px;
-            margin: 5px;
+            padding: 8px 14px;
+            margin: 6px;
             border-radius: 20px;
             font-size: 14px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 18px;
+            background: #1f6feb;
+            color: white;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #9333ea;
         }
 
         footer {
             text-align: center;
             padding: 20px;
             border-top: 1px solid #30363d;
-        }
-
-        a {
-            color: #58a6ff;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
         }
     </style>
 </head>
@@ -87,6 +111,13 @@
 <header>
     <h1>Krishnaraj Kumar K</h1>
     <p>DevOps Engineer | AWS | Kubernetes | CI/CD | Observability</p>
+
+    <!-- SOCIAL ICONS -->
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/in/krishnaraj-kumar-k-526733170" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </div>
 </header>
 
 <section>
@@ -95,7 +126,7 @@
         <h2>About Me</h2>
         <p>
             DevOps Engineer with 5+ years of experience in AWS, Kubernetes, CI/CD, and Observability.
-            I specialize in building scalable cloud infrastructure, automating deployments, and improving system reliability.
+            Passionate about automation, monitoring, and building reliable cloud systems.
         </p>
     </div>
 
@@ -120,7 +151,7 @@
         <h2>Projects</h2>
         <p>
             <b>DevOps Pipeline with Observability</b><br>
-            CI/CD pipelines with integrated monitoring and alerting.<br><br>
+            CI/CD pipelines with monitoring and alerting.<br><br>
 
             <b>AWS 2-Tier Architecture (SAP Hybris)</b><br>
             Scalable AWS infrastructure with CI/CD and monitoring.<br><br>
@@ -142,10 +173,10 @@
 
     <div class="card">
         <h2>Contact</h2>
-        <p>
-            Email: krishnarajkumar97@gmail.com<br>
-            LinkedIn: <a href="https://www.linkedin.com/in/krishnaraj-kumar-k-526733170" target="_blank">View Profile</a>
-        </p>
+        <p>Email: krishnarajkumar97@gmail.com</p>
+        <a class="btn" href="https://www.linkedin.com/in/krishnaraj-kumar-k-526733170" target="_blank">
+            Connect on LinkedIn
+        </a>
     </div>
 
 </section>
