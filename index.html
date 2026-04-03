@@ -1,41 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Krishnaraj Kumar K - DevOps Engineer</title>
+    <title>Krishnaraj Kumar K | DevOps Engineer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
     <style>
         body {
-            font-family: Arial;
+            font-family: 'Poppins', sans-serif;
             margin: 0;
-            background: #f4f6f8;
-            color: #333;
-        }
-        header {
             background: #0d1117;
-            color: white;
-            padding: 40px;
-            text-align: center;
+            color: #e6edf3;
         }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #1f6feb, #9333ea);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
         section {
-            padding: 30px;
             max-width: 900px;
             margin: auto;
+            padding: 30px;
         }
-        h2 {
-            color: #0d1117;
-        }
+
         .card {
-            background: white;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            background: #161b22;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            border: 1px solid #30363d;
+            transition: 0.3s;
         }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #1f6feb;
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #58a6ff;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #21262d;
+            padding: 8px 12px;
+            margin: 5px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
         footer {
             text-align: center;
             padding: 20px;
-            background: #0d1117;
-            color: white;
+            border-top: 1px solid #30363d;
+        }
+
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -48,34 +90,40 @@
 </header>
 
 <section>
+
     <div class="card">
         <h2>About Me</h2>
         <p>
             DevOps Engineer with 5+ years of experience in AWS, Kubernetes, CI/CD, and Observability.
-            Skilled in building scalable infrastructure, automating deployments, and improving system reliability.
+            I specialize in building scalable cloud infrastructure, automating deployments, and improving system reliability.
         </p>
     </div>
 
     <div class="card">
         <h2>Skills</h2>
-        <p>
-            AWS (EC2, EKS, S3, IAM, VPC, CloudWatch)<br>
-            Docker, Kubernetes<br>
-            Jenkins, GitLab CI, Argo CD<br>
-            Terraform<br>
-            Prometheus, Grafana, ELK Stack<br>
-            Python, Bash
-        </p>
+        <div class="skills">
+            <span>AWS</span>
+            <span>Kubernetes</span>
+            <span>Docker</span>
+            <span>Terraform</span>
+            <span>Jenkins</span>
+            <span>GitLab CI</span>
+            <span>Prometheus</span>
+            <span>Grafana</span>
+            <span>ELK Stack</span>
+            <span>Python</span>
+            <span>Bash</span>
+        </div>
     </div>
 
     <div class="card">
         <h2>Projects</h2>
         <p>
             <b>DevOps Pipeline with Observability</b><br>
-            Implemented CI/CD pipelines with monitoring and alerting.<br><br>
+            CI/CD pipelines with integrated monitoring and alerting.<br><br>
 
             <b>AWS 2-Tier Architecture (SAP Hybris)</b><br>
-            Designed scalable AWS infrastructure with CI/CD and monitoring.<br><br>
+            Scalable AWS infrastructure with CI/CD and monitoring.<br><br>
 
             <b>Log Monitoring System</b><br>
             Centralized logging and alerting using ELK and CloudWatch.
@@ -85,10 +133,10 @@
     <div class="card">
         <h2>Experience Highlights</h2>
         <p>
-            Managed AWS infrastructure and Kubernetes deployments<br>
-            Built CI/CD pipelines for automated delivery<br>
-            Improved observability and reduced incident resolution time<br>
-            Automated tasks using Python and Bash
+            • Managed AWS infrastructure and Kubernetes deployments<br>
+            • Built CI/CD pipelines for automated delivery<br>
+            • Improved observability and reduced incident resolution time<br>
+            • Automated tasks using Python and Bash
         </p>
     </div>
 
@@ -96,9 +144,10 @@
         <h2>Contact</h2>
         <p>
             Email: krishnarajkumar97@gmail.com<br>
-            LinkedIn: https://www.linkedin.com/in/krishnaraj-kumar-k-526733170
+            LinkedIn: <a href="https://www.linkedin.com/in/krishnaraj-kumar-k-526733170" target="_blank">View Profile</a>
         </p>
     </div>
+
 </section>
 
 <footer>
